@@ -11,7 +11,7 @@ AI Visibility Tracker is an Apify Actor that shows whether AI search engines men
 - Engines: Google AI Overviews (late-loading overviews read in a real browser), Gemini with Google Search grounding, and Claude with web search, localised to your country.
 - Per answer: whether your brand is named and its position among tracked brands, whether your site is cited and at what position, competitors named or cited, sentiment with a one-line summary, every brand named, and the cited URLs.
 - Hidden competitors: every company or product named in the answers is counted, including ones you don't track.
-- Weekly tracking: each run is compared with the last, with mentions and citations gained or lost per prompt and engine, and a client-ready HTML report.
+- Weekly tracking: each run is compared with the last, with mentions and citations gained or lost per prompt and engine, a client-ready HTML report with a trend over time, and Slack, Discord or webhook alerts.
 - Price: $0.05 per answer checked ($0.045 Silver, $0.04 Gold and above) plus $0.50 per optional report; answers that couldn't be checked are free. 20 prompts on 3 engines weekly costs about $14 a month.
 
 ## Example input
